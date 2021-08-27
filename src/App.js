@@ -5,7 +5,7 @@ import {useSelector} from 'react-redux'
 
 /* Import components */
 import {Login} from './Components/Login/Login'
-import { Layout } from './Components/Layout/Layout';
+import { Layout } from './Components/Layout/Layout.jsx';
 import {Logout} from './Components/Logout/Logout'
 import { selectUser } from './features/userSlice';
 

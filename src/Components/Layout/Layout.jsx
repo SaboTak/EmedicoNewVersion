@@ -530,7 +530,7 @@ export const Layout = () => {
                         <li>
                             <a href="side-menu-dark-chart.html" class="menu">
                                 <div class="menu__icon"> <i data-feather="activity"></i> </div>
-                                <div class="menu__title"> Chart </div>
+                                <div class="menu__title"> chart </div>
                             </a>
                         </li>
                         <li>
@@ -554,14 +554,10 @@ export const Layout = () => {
         <div class="top-bar-boxed border-b border-theme-2  -mt-7 md:-mt-5 -mx-3 sm:-mx-8 px-3 sm:px-8 md:pt-0 mb-1">
             <div class="h-full flex items-center">
 
-                <a href="" class="-intro-x pl-5 hidden md:flex">
-                    <img alt="Emedico" class="w-60" src={Logo} />
+                <a href="" class="-intro-x pl-8 hidden md:flex">
+                    <img alt="Emedico" class="w-60 h-14 -mt-3" src={Logo} />
                 </a>
-
-
                 <div class="-intro-x breadcrumb mr-auto ml-0"> <a href="">Application</a> <i data-feather="chevron-right" class="breadcrumb__icon"></i> <a href="" class="breadcrumb--active">Dashboard</a> </div>
-
-
                 <div class="intro-x relativeml-1 mr-3 sm:mr-6">
                     <div class="search hidden sm:block">
                         <input type="text" class="search__input form-control dark:bg-dark-1 border-transparent placeholder-theme-8" placeholder="Search..." />
@@ -760,7 +756,7 @@ export const Layout = () => {
                             <a href="javascript:;.html" class="side-menu side-menu--active">
                                 <div class="side-menu__icon"> <i data-feather="home"></i> </div>
                                 <div class="side-menu__title">
-                                    Dashboard 
+                                    Configuracion 
                                     <div class="side-menu__sub-icon transform rotate-180"> <i data-feather="chevron-down"></i> </div>
                                 </div>
                             </a>
@@ -768,19 +764,85 @@ export const Layout = () => {
                                 <li>
                                     <a href="side-menu-dark-dashboard-overview-1.html" class="side-menu side-menu--active">
                                         <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Overview 1 </div>
+                                        <div class="side-menu__title"> Sucursales </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="side-menu-dark-dashboard-overview-2.html" class="side-menu">
                                         <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Overview 2 </div>
+                                        <div class="side-menu__title"> Bodegas </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
                                         <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Overview 3 </div>
+                                        <div class="side-menu__title"> Clases de Productos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Grupos de productos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Subgrupo de productos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Marcas </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Unidades de medidas </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Productos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Insumos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Departamentos y ciudades </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Terceros </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Formas de pago </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Medios de pago </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Tipos de movimiento </div>
                                     </a>
                                 </li>
                             </ul>
@@ -789,7 +851,7 @@ export const Layout = () => {
                             <a href="javascript:;" class="side-menu">
                                 <div class="side-menu__icon"> <i data-feather="box"></i> </div>
                                 <div class="side-menu__title">
-                                    Menu Layout 
+                                    Procesos 
                                     <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
                                 </div>
                             </a>
@@ -797,19 +859,61 @@ export const Layout = () => {
                                 <li>
                                     <a href="side-menu-dark-dashboard-overview-1.html" class="side-menu">
                                         <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Side Menu </div>
+                                        <div class="side-menu__title"> Ordenes de compra  </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="simple-menu-dark-dashboard-overview-1.html" class="side-menu">
                                         <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Simple Menu </div>
+                                        <div class="side-menu__title"> Facturas de venta </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
                                         <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Top Menu </div>
+                                        <div class="side-menu__title"> Notas de cartera </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Recibo de caja </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Legalizacion de anticipos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Movimientos de almacen </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Recepcion de traslados </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Conteos de inventario </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Tomas de Inventario </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Descuentos y promociones </div>
                                     </a>
                                 </li>
                             </ul>
@@ -817,524 +921,502 @@ export const Layout = () => {
                         <li>
                             <a href="side-menu-dark-inbox.html" class="side-menu">
                                 <div class="side-menu__icon"> <i data-feather="inbox"></i> </div>
-                                <div class="side-menu__title"> Inbox </div>
+                                <div class="side-menu__title"> Cuentas por pagar </div>
                             </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-1.html" class="side-menu side-menu--active">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Facturas de proveedor compras o servicios </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-2.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Notas de proveedor </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-3.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Egresos de pagos a facturas de proveedor </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="side-menu-dark-file-manager.html" class="side-menu">
                                 <div class="side-menu__icon"> <i data-feather="hard-drive"></i> </div>
-                                <div class="side-menu__title"> File Manager </div>
+                                <div class="side-menu__title"> Contabilidad </div>
                             </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Plan de cuentas  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="simple-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Plan de cuentas Niif </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Centro de costo </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Ubicaciones </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Tipos de comprobante </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Comprobantes contables </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Tipos de gastos de caja menor </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Administración de Cajas menores </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Activos fijos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Depreciacion de activos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Diferidos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Amortizacion de diferidos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Cierre de mes </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Asientos de cierre </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Cierre de año </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Configuracion de Medios magneticos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Configuracion informes Super Salud </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Importar documentos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Auditoria </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="side-menu-dark-point-of-sale.html" class="side-menu">
                                 <div class="side-menu__icon"> <i data-feather="credit-card"></i> </div>
-                                <div class="side-menu__title"> Point of Sale </div>
+                                <div class="side-menu__title"> Nomina </div>
                             </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Parametros de nomina  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="simple-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Conceptos de nomina </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Entidades </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Cargos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Empleados </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Novedades </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Conceptos por empleado </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Prestamo </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Liquidacion de nomina </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Provision de Seguridad social </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Liquidacion de vacaciones </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Liquidacion de primas de servicios </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Lquidacion de cesantias </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Liquidacion final del empleado </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="side-menu-dark-chat.html" class="side-menu">
                                 <div class="side-menu__icon"> <i data-feather="message-square"></i> </div>
-                                <div class="side-menu__title"> Chat </div>
+                                <div class="side-menu__title"> Presupuesto </div>
                             </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Niveles de presupuesto  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="simple-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Periodo de presupuesto </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Configuracion base de presupuesto </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Elaboracion base de presupuesto </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Modificaciones de presupuesto </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Traslados entre items de presupuestos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Reconocimiento </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Solicitud CDP </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Elaboracion CDP </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Registro de RP </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Ordenes de pago </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Cierre de RP </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Ejecucion presupuestal </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="side-menu-dark-post.html" class="side-menu">
                                 <div class="side-menu__icon"> <i data-feather="file-text"></i> </div>
-                                <div class="side-menu__title"> Post </div>
+                                <div class="side-menu__title"> Informes </div>
                             </a>
+                            <ul class="">
+                                <li>
+                                    <a href="side-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Generales  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="simple-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Informes POS </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Cuentas por pagar </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Listado de activos </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Saldos por cuenta </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Informes auxiliares por cuenta y tercero </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Informes super salud </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Balance de prueba </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Estados de resultados </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Estados de cambios en patrimonio </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Balance general </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Iva generado </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Bases gravadas </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Certificados de retencion  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Medios magneticos  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Informes de nomina  </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="side-menu-dark-calendar.html" class="side-menu">
                                 <div class="side-menu__icon"> <i data-feather="calendar"></i> </div>
-                                <div class="side-menu__title"> Calendar </div>
-                            </a>
-                        </li>
-                        <li class="side-nav__devider my-6"></li>
-                        <li>
-                            <a href="javascript:;" class="side-menu">
-                                <div class="side-menu__icon"> <i data-feather="edit"></i> </div>
-                                <div class="side-menu__title">
-                                    Crud 
-                                    <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                </div>
+                                <div class="side-menu__title"> Sistema </div>
                             </a>
                             <ul class="">
                                 <li>
-                                    <a href="side-menu-dark-crud-data-list.html" class="side-menu">
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
                                         <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Data List </div>
+                                        <div class="side-menu__title"> Perfiles de Usuario  </div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="side-menu-dark-crud-form.html" class="side-menu">
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
                                         <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Form </div>
+                                        <div class="side-menu__title"> Administracion de Usuarios  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Licencia  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Parametros del Sistema  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Terminales  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Administracion de consecutivos  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Modelos de Contabilidad   </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Manejo de Turnos  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Importar  </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="top-menu-dark-dashboard-overview-1.html" class="side-menu">
+                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                                        <div class="side-menu__title"> Actualizar informes  </div>
                                     </a>
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="javascript:;" class="side-menu">
-                                <div class="side-menu__icon"> <i data-feather="users"></i> </div>
-                                <div class="side-menu__title">
-                                    Users 
-                                    <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                </div>
-                            </a>
-                            <ul class="">
-                                <li>
-                                    <a href="side-menu-dark-users-layout-1.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Layout 1 </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-users-layout-2.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Layout 2 </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-users-layout-3.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Layout 3 </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="javascript:;" class="side-menu">
-                                <div class="side-menu__icon"> <i data-feather="trello"></i> </div>
-                                <div class="side-menu__title">
-                                    Profile 
-                                    <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                </div>
-                            </a>
-                            <ul class="">
-                                <li>
-                                    <a href="side-menu-dark-profile-overview-1.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Overview 1 </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-profile-overview-2.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Overview 2 </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-profile-overview-3.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Overview 3 </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="javascript:;" class="side-menu">
-                                <div class="side-menu__icon"> <i data-feather="layout"></i> </div>
-                                <div class="side-menu__title">
-                                    Pages 
-                                    <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                </div>
-                            </a>
-                            <ul class="">
-                                <li>
-                                    <a href="javascript:;" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title">
-                                            Wizards 
-                                            <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                        </div>
-                                    </a>
-                                    <ul class="">
-                                        <li>
-                                            <a href="side-menu-dark-wizard-layout-1.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 1</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-wizard-layout-2.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 2</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-wizard-layout-3.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 3</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="javascript:;" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title">
-                                            Blog 
-                                            <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                        </div>
-                                    </a>
-                                    <ul class="">
-                                        <li>
-                                            <a href="side-menu-dark-blog-layout-1.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 1</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-blog-layout-2.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 2</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-blog-layout-3.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 3</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="javascript:;" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title">
-                                            Pricing 
-                                            <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                        </div>
-                                    </a>
-                                    <ul class="">
-                                        <li>
-                                            <a href="side-menu-dark-pricing-layout-1.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 1</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-pricing-layout-2.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 2</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="javascript:;" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title">
-                                            Invoice 
-                                            <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                        </div>
-                                    </a>
-                                    <ul class="">
-                                        <li>
-                                            <a href="side-menu-dark-invoice-layout-1.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 1</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-invoice-layout-2.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 2</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="javascript:;" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title">
-                                            FAQ 
-                                            <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                        </div>
-                                    </a>
-                                    <ul class="">
-                                        <li>
-                                            <a href="side-menu-dark-faq-layout-1.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 1</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-faq-layout-2.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 2</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-faq-layout-3.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Layout 3</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="login-dark-login.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Login </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="login-dark-register.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Register </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="main-dark-error-page.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Error Page </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-update-profile.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Update profile </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-change-password.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Change Password </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="side-nav__devider my-6"></li>
-                        <li>
-                            <a href="javascript:;" class="side-menu">
-                                <div class="side-menu__icon"> <i data-feather="inbox"></i> </div>
-                                <div class="side-menu__title">
-                                    Components 
-                                    <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                </div>
-                            </a>
-                            <ul class="">
-                                <li>
-                                    <a href="javascript:;" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title">
-                                            Table 
-                                            <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                        </div>
-                                    </a>
-                                    <ul class="">
-                                        <li>
-                                            <a href="side-menu-dark-regular-table.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Regular Table</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-tabulator.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Tabulator</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="javascript:;" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title">
-                                            Overlay 
-                                            <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                        </div>
-                                    </a>
-                                    <ul class="">
-                                        <li>
-                                            <a href="side-menu-dark-modal.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Modal</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-slide-over.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Slide Over</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-notification.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Notification</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-accordion.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Accordion </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-button.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Button </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-alert.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Alert </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-progress-bar.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Progress Bar </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-tooltip.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Tooltip </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-dropdown.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Dropdown </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-typography.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Typography </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-icon.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Icon </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-loading-icon.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Loading Icon </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="javascript:;" class="side-menu">
-                                <div class="side-menu__icon"> <i data-feather="sidebar"></i> </div>
-                                <div class="side-menu__title">
-                                    Forms 
-                                    <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                </div>
-                            </a>
-                            <ul class="">
-                                <li>
-                                    <a href="side-menu-dark-regular-form.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Regular Form </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-datepicker.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Datepicker </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-tom-select.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Tom Select </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-file-upload.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> File Upload </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title">
-                                            Wysiwyg Editor 
-                                            <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                        </div>
-                                    </a>
-                                    <ul class="">
-                                        <li>
-                                            <a href="side-menu-dark-wysiwyg-editor-classic.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Classic</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-wysiwyg-editor-inline.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Inline</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-wysiwyg-editor-balloon.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Balloon</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-wysiwyg-editor-balloon-block.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Balloon Block</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="side-menu-dark-wysiwyg-editor-document.html" class="side-menu">
-                                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
-                                                <div class="side-menu__title">Document</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-validation.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Validation </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="javascript:;" class="side-menu">
-                                <div class="side-menu__icon"> <i data-feather="hard-drive"></i> </div>
-                                <div class="side-menu__title">
-                                    Widgets 
-                                    <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
-                                </div>
-                            </a>
-                            <ul class="">
-                                <li>
-                                    <a href="side-menu-dark-chart.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Chart </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-slider.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Slider </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="side-menu-dark-image-zoom.html" class="side-menu">
-                                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
-                                        <div class="side-menu__title"> Image Zoom </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+                        
                     </ul>
                 </nav>
 

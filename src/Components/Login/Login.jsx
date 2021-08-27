@@ -6,7 +6,7 @@ import './Login.css'
 
 
 /* Import images */
-import Logo from '../../images/logo.svg'
+import Logo from '../../images/Logo.png'
 import Ilustracion from '../../images/illustration.svg'
     
     export const Login = () => {
@@ -31,8 +31,7 @@ import Ilustracion from '../../images/illustration.svg'
             <div class="block xl:grid grid-cols-2 gap-4">
                 <div class="hidden xl:flex flex-col min-h-screen">
                     <a href="" class="-intro-x flex items-center pt-5">
-                        <img alt="Icewall Tailwind HTML Admin Template" class="w-6" src={Logo} />
-                        <span class="text-white text-lg ml-3"> Ice<span class="font-medium">wall</span> </span>
+                        <img alt="Icewall Tailwind HTML Admin Template" class="w-30" src={Logo} />
                     </a>
                     <div class="my-auto">
                         <img alt="Icewall Tailwind HTML Admin Template" class="-intro-x w-1/2 -mt-16" src={Ilustracion} />
