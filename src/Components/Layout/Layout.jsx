@@ -1,4 +1,7 @@
 import React , {useState} from 'react'
+import { AiFillBell } from "react-icons/ai";
+import { FaAlignJustify, FaUserAlt , FaSearch , FaChevronDown}  from "react-icons/fa";
+
 
 
 
@@ -14,9 +17,9 @@ export const Layout = () => {
         <div class="mobile-menu md:hidden">
             <div class="mobile-menu-bar">
                 <a href="" class="flex mr-auto">
-                    <img alt="Emedico" class="w-6" src={Logo} />
+                    <img alt="Emedico" class="w-60" src={Logo} />
                 </a>
-                <a href="javascript:;" id="mobile-menu-toggler"> <i data-feather="bar-chart-2" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
+                <a href="javascript:;" id="mobile-menu-toggler"> <FaAlignJustify class="w-8 h-8 text-white transform mr-5" /> </a>
             </div>
             <ul class="border-t border-theme-2 py-5 hidden">
                 <li>
@@ -561,7 +564,7 @@ export const Layout = () => {
                 <div class="intro-x relativeml-1 mr-3 sm:mr-6">
                     <div class="search hidden sm:block">
                         <input type="text" class="search__input form-control dark:bg-dark-1 border-transparent placeholder-theme-8" placeholder="Search..." />
-                        <i data-feather="search" class="search__icon dark:text-gray-300"></i> 
+                        <FaSearch  class="search__icon dark:text-gray-300" />
                     </div>
                     <a class="notification sm:hidden" href=""> <i data-feather="search" class="notification__icon dark:text-gray-300"></i> </a>
                     <div class="search-result">
@@ -647,7 +650,7 @@ export const Layout = () => {
 
 
                 <div class="intro-x dropdown mr-4 sm:mr-6">
-                    <div class="dropdown-toggle notification notification--bullet cursor-pointer" role="button" aria-expanded="false"> <i data-feather="bell" class="notification__icon dark:text-gray-300"></i> </div>
+                    <div class="dropdown-toggle notification notification--bullet cursor-pointer" role="button" aria-expanded="false"> <AiFillBell class="w-6 h-6 dark:text-gray-300" /> </div>
                     <div class="notification-content pt-2 dropdown-menu">
                         <div class="notification-content__box dropdown-menu__content box dark:bg-dark-6">
                             <div class="notification-content__title">Notifications</div>
@@ -723,7 +726,7 @@ export const Layout = () => {
 
                 <div class="intro-x dropdown w-8 h-8">
                     <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in scale-110" role="button" aria-expanded="false">
-                        <img alt="Icewall Tailwind HTML Admin Template" src={profile8}  />
+                    <FaUserAlt class="rounded-full w-8 h-8 text-black" />
                     </div>
                     <div class="dropdown-menu w-56">
                         <div class="dropdown-menu__content box bg-theme-11 dark:bg-dark-6 text-white">
@@ -753,14 +756,14 @@ export const Layout = () => {
                 <nav class="side-nav">
                     <ul>
                         <li>
-                            <a href="javascript:;.html" class="side-menu side-menu--active">
+                            <a href="javascript:;.html" class="side-menu side-menu">
                                 <div class="side-menu__icon"> <i data-feather="home"></i> </div>
                                 <div class="side-menu__title">
                                     Configuracion 
-                                    <div class="side-menu__sub-icon transform rotate-180"> <i data-feather="chevron-down"></i> </div>
+                                    <div class="side-menu__sub-icon transform "> <FaChevronDown /> </div>
                                 </div>
                             </a>
-                            <ul class="side-menu__sub-open">
+                            <ul class="">
                                 <li>
                                     <a href="side-menu-dark-dashboard-overview-1.html" class="side-menu side-menu--active">
                                         <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
@@ -852,7 +855,7 @@ export const Layout = () => {
                                 <div class="side-menu__icon"> <i data-feather="box"></i> </div>
                                 <div class="side-menu__title">
                                     Procesos 
-                                    <div class="side-menu__sub-icon "> <i data-feather="chevron-down"></i> </div>
+                                    <div class="side-menu__sub-icon transform "> <FaChevronDown /> </div>
                                 </div>
                             </a>
                             <ul class="">
@@ -920,8 +923,11 @@ export const Layout = () => {
                         </li>
                         <li>
                             <a href="side-menu-dark-inbox.html" class="side-menu">
-                                <div class="side-menu__icon"> <i data-feather="inbox"></i> </div>
-                                <div class="side-menu__title"> Cuentas por pagar </div>
+                                
+                                <div class="side-menu__title">Cuentas por pagar
+                                <div class="side-menu__sub-icon transform"> <FaChevronDown /> </div>
+                                </div>
+                                
                             </a>
                             <ul class="">
                                 <li>
@@ -945,9 +951,16 @@ export const Layout = () => {
                             </ul>
                         </li>
                         <li>
-                            <a href="side-menu-dark-file-manager.html" class="side-menu">
-                                <div class="side-menu__icon"> <i data-feather="hard-drive"></i> </div>
-                                <div class="side-menu__title"> Contabilidad </div>
+                            <a href="side-menu-dark-file-manager.html" class="side-menu side-menu">
+                                <div class="side-menu__title"> 
+                                Contabilidad 
+                                <div class="side-menu__sub-icon transform "> <FaChevronDown /> </div>
+                                </div>
+                                
+
+
+
+
                             </a>
                             <ul class="">
                                 <li>
@@ -1069,7 +1082,9 @@ export const Layout = () => {
                         <li>
                             <a href="side-menu-dark-point-of-sale.html" class="side-menu">
                                 <div class="side-menu__icon"> <i data-feather="credit-card"></i> </div>
-                                <div class="side-menu__title"> Nomina </div>
+                                <div class="side-menu__title"> Nomina 
+                                <div class="side-menu__sub-icon transform"> <FaChevronDown /> </div>
+                                </div>
                             </a>
                             <ul class="">
                                 <li>
@@ -1161,7 +1176,9 @@ export const Layout = () => {
                         <li>
                             <a href="side-menu-dark-chat.html" class="side-menu">
                                 <div class="side-menu__icon"> <i data-feather="message-square"></i> </div>
-                                <div class="side-menu__title"> Presupuesto </div>
+                                <div class="side-menu__title"> Presupuesto 
+                                <div class="side-menu__sub-icon transform"> <FaChevronDown /> </div>
+                                </div>
                             </a>
                             <ul class="">
                                 <li>
@@ -1247,7 +1264,9 @@ export const Layout = () => {
                         <li>
                             <a href="side-menu-dark-post.html" class="side-menu">
                                 <div class="side-menu__icon"> <i data-feather="file-text"></i> </div>
-                                <div class="side-menu__title"> Informes </div>
+                                <div class="side-menu__title"> Informes 
+                                <div class="side-menu__sub-icon transform"> <FaChevronDown /> </div>
+                                </div>
                             </a>
                             <ul class="">
                                 <li>
@@ -1351,7 +1370,9 @@ export const Layout = () => {
                         <li>
                             <a href="side-menu-dark-calendar.html" class="side-menu">
                                 <div class="side-menu__icon"> <i data-feather="calendar"></i> </div>
-                                <div class="side-menu__title"> Sistema </div>
+                                <div class="side-menu__title"> Sistema 
+                                <div class="side-menu__sub-icon transform"> <FaChevronDown /> </div>
+                                </div>
                             </a>
                             <ul class="">
                                 <li>

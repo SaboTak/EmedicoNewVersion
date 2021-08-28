@@ -7,14 +7,13 @@ import {useSelector} from 'react-redux'
 import {Login} from './Components/Login/Login'
 import { Layout } from './Components/Layout/Layout.jsx';
 import {Logout} from './Components/Logout/Logout'
-import { selectUser } from './features/userSlice';
 
 function App() {
-  const user = useSelector(selectUser);
 
   return (
     <Provider store={store}>
-      {user ? <Layout /> : <Login />}
+      <Login />
+      <Layout /> 
     </Provider>
 
   );

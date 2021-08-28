@@ -1,4 +1,5 @@
 import axios from "axios";
+import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
 
 
@@ -557,18 +558,18 @@ const cash =(function (cash) {
             ];
             var lat = cash(el).data("center").split(",")[0];
             var long = cash(el).data("center").split(",")[1];
-            var map = new google.maps.Map(el, {
-                center: new google.maps.LatLng(lat, long),
+            var map = new window.google.maps.Map(el, {
+                center: new window.google.maps.LatLng(lat, long),
                 zoom: 10,
                 styles: cash("html").hasClass("dark") ? darkStyle : lightStyle,
                 zoomControl: true,
                 zoomControlOptions: {
-                    position: google.maps.ControlPosition.LEFT_BOTTOM,
+                    position: window.google.maps.ControlPosition.LEFT_BOTTOM,
                 },
                 streetViewControl: false,
             });
 
-            var infoWindow = new google.maps.InfoWindow({
+            var infoWindow = new window.google.maps.InfoWindow({
                 minWidth: 400,
                 maxWidth: 400,
             });
@@ -577,7 +578,7 @@ const cash =(function (cash) {
                 .get(cash(el).data("sources"))
                 .then(function ({ data }) {
                     var markersArray = data.map(function (markerElem, i) {
-                        var point = new google.maps.LatLng(
+                        var point = new window.google.maps.LatLng(
                             parseFloat(markerElem.latitude),
                             parseFloat(markerElem.longitude)
                         );
@@ -589,18 +590,18 @@ const cash =(function (cash) {
                             ", Longitude: " +
                             markerElem.longitude +
                             "</div>";
-                        var marker = new google.maps.Marker({
+                        var marker = new window.google.maps.Marker({
                             map: map,
                             position: point,
                             icon: iconBase,
                         });
 
-                        google.maps.event.addListener(
+                        window.google.maps.event.addListener(
                             marker,
                             "click",
                             function (evt) {
                                 infoWindow.setContent(infowincontent);
-                                google.maps.event.addListener(
+                                window.google.maps.event.addListener(
                                     infoWindow,
                                     "domready",
                                     function () {
@@ -633,7 +634,6 @@ const cash =(function (cash) {
                             },
                         ],
                     };
-                    new MarkerClusterer(map, markersArray, mcOptions);
                 })
                 .catch(function (err) {
                     console.log(err);
@@ -641,7 +641,7 @@ const cash =(function (cash) {
         }
 
         cash(".report-maps").each(function (key, el) {
-            google.maps.event.addDomListener(window, "load", initMap(el));
+            window.google.maps.event.addDomListener(window, "load", initMap(el));
         });
     }
 })(cash);
