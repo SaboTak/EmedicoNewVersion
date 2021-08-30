@@ -8,8 +8,17 @@ import { FaAlignJustify, FaUserAlt , FaSearch , FaChevronDown}  from "react-icon
 /* Import images */
 import Logo from '../../images/Logo.png'
 import profile8 from '../../images/User.png'
+
+/* Borrar storage */
+
+
+/* */
+
+
     
 export const Layout = () => {
+
+    
 
     return (
         <div className="main">
@@ -741,7 +750,7 @@ export const Layout = () => {
                                 <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 dark:hover:bg-dark-3 rounded-md"> <i data-feather="help-circle" class="w-4 h-4 mr-2"></i> Help </a>
                             </div>
                             <div class="p-2 border-t border-theme-12 dark:border-dark-3">
-                                <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 dark:hover:bg-dark-3 rounded-md"> <i data-feather="toggle-right" class="w-4 h-4 mr-2"></i> Logout </a>
+                                <a href="" class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 dark:hover:bg-dark-3 rounded-md" onClick={this.logout()} > <i data-feather="toggle-right" class="w-4 h-4 mr-2"></i> Logout </a>
                             </div>
                         </div>
                     </div>

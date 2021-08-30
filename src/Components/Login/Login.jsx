@@ -1,17 +1,40 @@
 import React , {useState} from 'react'
-import {useDispatch} from 'react-redux'
-import {login} from '../../features/userSlice'
+import PropTypes from 'prop-types';
 import './Login.css'
-
-
 
 /* Import images */
 import Logo from '../../images/Logo.png'
 import Ilustracion from '../../images/illustration.svg'
-    
-    export const Login = () => {
 
+/* Script de Logeo */
+async function loginUser(credentials) {
+    return fetch('http://localhost:8080/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(credentials)
+    })
+      .then(data => data.json())
+   }
+
+/*   */ 
+
+
+    
+    export const Login = ({ setToken }) => {
+
+        const [username, setUserName] = useState();
+        const [password, setPassword] = useState();
         
+        const handleSubmit = async e => {
+            e.preventDefault();
+            const token = await loginUser({
+              username,
+              password
+            });
+            setToken(token);
+          }
         
         return (
         <div class="login">
@@ -19,7 +42,7 @@ import Ilustracion from '../../images/illustration.svg'
             <div class="block xl:grid grid-cols-2 gap-4">
                 <div class="hidden xl:flex flex-col min-h-screen">
                     <a href="" class="-intro-x flex items-center pt-5">
-                        <img alt="Icewall Tailwind HTML Admin Template" class="w-30" src={Logo} />
+                        <img alt="Icewall Tailwind HTML Admin Template" class="w-25" src={Logo} />
                     </a>
                     <div class="my-auto">
                         <img alt="Icewall Tailwind HTML Admin Template" class="-intro-x w-1/2 -mt-16" src={Ilustracion} />
@@ -38,10 +61,10 @@ import Ilustracion from '../../images/illustration.svg'
                             Iniciar sesion
                         </h2>
                         <div class="intro-x mt-2 text-gray-500 xl:hidden text-center">A few more clicks to sign in to your account. Manage all your e-commerce accounts in one place</div>
-                        <form >
+                        <form onSubmit={handleSubmit} >
                             <div class="intro-x mt-8">
-                                <input type="text" class="intro-x login__input form-control py-3 px-4 border-gray-300 block" placeholder="Usuario"   />
-                                <input type="password" class="intro-x login__input form-control py-3 px-4 border-gray-300 block mt-4" placeholder="Contraseña"   />
+                                <input type="text" class="intro-x login__input form-control py-3 px-4 border-gray-300 block" placeholder="Usuario" onChange={e => setUserName(e.target.value)}  />
+                                <input type="password" class="intro-x login__input form-control py-3 px-4 border-gray-300 block mt-4" placeholder="Contraseña"  onChange={e => setPassword(e.target.value)} />
                             </div>
                             <div class="intro-x flex text-gray-700 dark:text-gray-600 text-xs sm:text-sm mt-4">
                                 <div class="flex items-center mr-auto">
@@ -51,7 +74,7 @@ import Ilustracion from '../../images/illustration.svg'
                                 <a href="">¿Olvidaste tu contraseña?</a> 
                             </div>
                             <div class="intro-x mt-5 xl:mt-8 text-center xl:text-left">
-                                <button class="btn btn-primary py-3 px-4 w-full xl:w-32 xl:mr-3 align-top">Iniciar sesion</button>
+                                <button  class="btn btn-primary py-3 px-4 w-full xl:w-32 xl:mr-3 align-top">Iniciar sesion</button>
                             </div>
                         </form>
                         <div class="intro-x mt-10 xl:mt-24 text-gray-700 dark:text-gray-600 text-center xl:text-left">
@@ -74,4 +97,7 @@ import Ilustracion from '../../images/illustration.svg'
 
         )
     }
+    Login.propTypes = {
+        setToken: PropTypes.func.isRequired
+      }
     
